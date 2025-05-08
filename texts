@@ -1,0 +1,911 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:mc="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>My Email Subject</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="color-scheme" content="light dark">
+  <style>
+    @media (prefers-color-scheme: dark) {
+        .dark-scheme-font {
+          color: #ffffff !important;
+        }
+        .dark-scheme-font2 {
+          color: #09205c !important;
+        }
+        .dark-scheme-background {
+          background-color: #ffffff !important;
+        }
+      }
+    html {
+      width: 100%;
+    }
+    body {
+      width: 100%; -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      margin: 0;  
+      padding: 0;
+      font-family: 'Open Sans', Verdana, Arial, sans-serif;
+      color: #09205c; 
+      background-color: #fff;
+    }
+    body p {
+      font-size: 14px;
+      font-family: 'Open Sans', Verdana, Arial, sans-serif;
+    }
+    .designer-unconfiguredcontent-overlay {
+      width: 100%;
+    }
+    div[data-editorblocktype="Image"] .designer-unconfiguredcontent-overlay {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    div[data-editorblocktype="Image"] {
+      position: relative;
+    }
+    .designer-content-editor-hidden {
+      display: none !important;
+    }
+    div div {
+      background-color: transparent;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    img {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      background-size: contain;
+      box-sizing: border-box;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    a, a:link, a:visited {
+      color: inherit;
+    }
+    @media only screen and (min-width: 601px) {
+      .demMainContainer {
+        max-width: 900px;
+        margin: auto;
+      }
+      .outer {
+        max-width: 900px;
+      }
+      .bannerMobile,
+      .logoMobile,
+      .visualMobile,
+      .contattaciIconMobile,
+      .chiamaciIconMobile,
+      .scriviciIconMobile,
+      .facebookWomanMobile,
+      .facebookManMobile,
+      .instagramIconMobile {
+        display: none;
+      }
+      .bannerDesktop,
+      .logoDesktop,
+      .visualDesktop,
+      .contattaciIconDesktop,
+      .chiamaciIconDesktop,
+      .scriviciIconDesktop,
+      .facebookWomanDesktop,
+      .facebookManDesktop,
+      .instagramIconDesktop {
+        display: block;
+      }
+      .trSocial {
+        max-width: 400px;
+      }
+      .socialItem {
+        margin: 0 25px;
+      }
+      .footerAction {
+        margin: 0 25px;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      body p {
+        font-size: 12px;
+      }
+      .demMainContainer {
+        width: 100%;
+        margin: auto;
+      }
+      .outer {
+        width: 100%;
+      }
+      .headerVisual img {
+        width: 100%;
+        height: auto;
+      }
+      .bannerMobile,
+      .logoMobile,
+      .visualMobile,
+      .contattaciIconMobile,
+      .chiamaciIconMobile,
+      .scriviciIconMobile,
+      .facebookWomanMobile,
+      .facebookManMobile,
+      .instagramIconMobile {
+        display: block;
+      }
+      .bannerDesktop,
+      .logoDesktop,
+      .visualDesktop,
+      .contattaciIconDesktop,
+      .chiamaciIconDesktop,
+      .scriviciIconDesktop,
+      .facebookWomanDesktop,
+      .facebookManDesktop,
+      .instagramIconDesktop {
+        display: none;
+      }
+      .trSocial {
+        max-width: 300px;
+      }
+      .socialItem {
+        margin: 0 15px;
+      }
+      .footerAction {
+        margin: 0 15px;
+      }
+      .hideOnMobile {
+        display: none!important
+      }
+    }
+  </style>
+  <!--[if mso]>
+    <style>
+      
+      html {
+        width: 100%;
+      }
+      body {
+        width: 100%; -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        margin: 0;  
+        padding: 0;
+        font-family: 'Open Sans', Verdana, Arial, sans-serif;
+        color: #09205c; 
+        background-color: #fff;
+      }
+      body p {
+        font-size: 14px;
+        font-family: 'Open Sans', Verdana, Arial, sans-serif;
+      }
+      .designer-unconfiguredcontent-overlay {
+        width: 100%;
+      }
+      div[data-editorblocktype="Image"] .designer-unconfiguredcontent-overlay {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+      div[data-editorblocktype="Image"] {
+        position: relative;
+      }
+      .designer-content-editor-hidden {
+        display: none !important;
+      }
+      div div {
+        background-color: transparent;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      img {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        background-size: contain;
+        box-sizing: border-box;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      a, a:link, a:visited {
+        color: inherit;
+      }
+      @media only screen and (min-width: 601px) {
+        .demMainContainer {
+          max-width: 900px;
+          margin: auto;
+        }
+        .outer {
+          max-width: 900px;
+        }
+        .bannerMobile,
+        .logoMobile,
+        .visualMobile,
+        .contattaciIconMobile,
+        .chiamaciIconMobile,
+        .scriviciIconMobile,
+        .facebookWomanMobile,
+        .facebookManMobile,
+        .instagramIconMobile {
+          display: none;
+        }
+        .bannerDesktop,
+        .logoDesktop,
+        .visualDesktop,
+        .contattaciIconDesktop,
+        .chiamaciIconDesktop,
+        .scriviciIconDesktop,
+        .facebookWomanDesktop,
+        .facebookManDesktop,
+        .instagramIconDesktop {
+          display: block;
+        }
+        .trSocial {
+          max-width: 400px;
+        }
+        .socialItem {
+          margin: 0 25px;
+        }
+        .footerAction {
+          margin: 0 25px;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        body p {
+          font-size: 12px;
+        }
+        .demMainContainer {
+          width: 100%;
+          margin: auto;
+        }
+        .outer {
+          width: 100%;
+        }
+        .headerVisual img {
+          width: 100%;
+          height: auto;
+        }
+        .bannerMobile,
+        .logoMobile,
+        .visualMobile,
+        .contattaciIconMobile,
+        .chiamaciIconMobile,
+        .scriviciIconMobile,
+        .facebookWomanMobile,
+        .facebookManMobile,
+        .instagramIconMobile {
+          display: block;
+        }
+        .bannerDesktop,
+        .logoDesktop,
+        .visualDesktop,
+        .contattaciIconDesktop,
+        .chiamaciIconDesktop,
+        .scriviciIconDesktop,
+        .facebookWomanDesktop,
+        .facebookManDesktop,
+        .instagramIconDesktop {
+          display: none;
+        }
+        .trSocial {
+          max-width: 300px;
+        }
+        .socialItem {
+          margin: 0 15px;
+        }
+        .footerAction {
+          margin: 0 15px;
+        }
+      }
+    </style>
+  <![endif]-->
+</head>
+
+<body>
+<div class="demMainContainer" data-layout="true" data-layout-version="v2" style="font-family: 'Open Sans', Verdana, Arial, sans-serif;"><!-- <div style="display: none;">
+      ----------------------------------------------------------------
+      SEZIONE LOGO
+      ----------------------------------------------------------------
+    </div>-->
+<div class="emptyContainer columns-equal-class wrap-section" data-section="true">
+<table align="center" cellpadding="0" cellspacing="0" class="outer" role="presentation">
+	<tbody>
+		<tr>
+			<th role="presentation">
+			<table cellpadding="0" cellspacing="0" class="containerWrapper tbContainer" role="presentation" style="padding: 10px;">
+				<tbody>
+					<tr>
+						<th class="columnContainer" data-container="true" data-container-width="100" id="" role="presentation"><!--<div style="display: none;">
+                        ----------------------------------------------------------------
+                        TABLE: selezionare l'intera <table></table> per duplicare l'intero blocco
+                        LOGO
+                        ----------------------------------------------------------------
+                      </div>-->
+						<table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<th class="inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                LOGO DESKTOP IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div class="logo logoDesktop" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="3fe91e35-40f0-ef11-be1f-7c1e52351a98"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK                                    
+                                    ----------------------------------------------------------------
+                                  </div>--><a href="https://dedicatoame.it/#_msdynmkt_linkid=c03d70e9-506d-4d66-91a6-457f99a730fd" rel="noopener noreferrer" style="cursor: pointer;" target="_blank"><img alt="tena logo" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/5f1c7247-ecff-ef11-bae3-000d3ad9c83c?ts=638774543820145561" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/5f1c7247-ecff-ef11-bae3-000d3ad9c83c?ts=638774543820145561" /> </a></div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                LOGO MOBILE IMAGE
+                                ----------------------------------------------------------------
+                              </div>--><!--[if !mso]><!-->
+
+									<div class="logo logoMobile" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="3fe91e35-40f0-ef11-be1f-7c1e52351a98"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK                                    
+                                    ----------------------------------------------------------------
+                                  </div>--><a href="https://dedicatoame.it/#_msdynmkt_linkid=38b7cf88-6217-4232-a077-1079ae0d9ca3" rel="noopener noreferrer" style="cursor: pointer;" target="_blank"><img alt="tena logo" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/5e1c7247-ecff-ef11-bae3-000d3ad9c83c?ts=638774543821239335" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/5e1c7247-ecff-ef11-bae3-000d3ad9c83c?ts=638774543821239335" /> </a></div>
+									</div>
+									<!--<![endif]--></th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+					</tr>
+				</tbody>
+			</table>
+			</th>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!--<div style="display: none;">
+      ----------------------------------------------------------------
+      SEZIONE VISUAL
+      ----------------------------------------------------------------
+    </div>-->
+
+<div class="emptyContainer columns-equal-class wrap-section" data-section="true">
+<table align="center" cellpadding="0" cellspacing="0" class="outer" role="presentation">
+	<tbody>
+		<tr>
+			<th role="presentation">
+			<table cellpadding="0" cellspacing="0" class="containerWrapper tbContainer" role="presentation" style="padding: 10px;">
+				<tbody>
+					<tr>
+						<th class="columnContainer" data-container="true" data-container-width="100" id="" role="presentation"><!--<div style="display: none;">
+                        ----------------------------------------------------------------
+                        TABLE: selezionare l'intera <table></table> per duplicare l'intero blocco
+                        VISUAL 
+                        ----------------------------------------------------------------
+                      </div>-->
+						<table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<th class="inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                VISUAL DESKTOP IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div class="headerVisual visualDesktop" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="40e91e35-40f0-ef11-be1f-7c1e52351a98"><img alt="tena visual" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/37cfc15f-5d2a-f011-8c4e-002248a3be20?ts=638821209066600490" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/37cfc15f-5d2a-f011-8c4e-002248a3be20?ts=638821209066600490" /></div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                VISUAL MOBILE IMAGE
+                                ----------------------------------------------------------------
+                              </div>--><!--[if !mso]><!-->
+
+									<div class="headerVisual visualMobile" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="1f0079b1-40f0-ef11-be1f-7c1e52351a98"><img alt="tena visual" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/06cfc15f-5d2a-f011-8c4e-002248a3be20?ts=638821209031755538" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/06cfc15f-5d2a-f011-8c4e-002248a3be20?ts=638821209031755538" /></div>
+									</div>
+									<!--<![endif]--></th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+					</tr>
+				</tbody>
+			</table>
+			</th>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!--<div style="display: none;">
+      ----------------------------------------------------------------
+      SEPARATORE
+      ----------------------------------------------------------------
+    </div>-->
+
+<div style="height: 20px;">&nbsp;</div>
+<!--<div style="display: none;">
+      ----------------------------------------------------------------
+      SEZIONE DEM CONTENT
+      ----------------------------------------------------------------
+    </div>-->
+
+<div class="emptyContainer columns-equal-class wrap-section" data-section="true">
+<table align="center" cellpadding="0" cellspacing="0" class="outer" role="presentation">
+	<tbody>
+		<tr>
+			<th role="presentation">
+			<table cellpadding="0" cellspacing="0" class="containerWrapper tbContainer" role="presentation" style="padding: 10px;">
+				<tbody>
+					<tr>
+						<th class="columnContainer" data-container="true" data-container-width="100" id="" role="presentation"><!--<div style="display: none;">
+                        ----------------------------------------------------------------
+                        TABLE: selezionare l'intera <table></table> per duplicare l'intero blocco
+                        DEM TEXT
+                        ----------------------------------------------------------------
+                      </div>-->
+						<table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<th align="center" class="inner Wrapper" role="presentation" style="padding: 0 40px;"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                DEM TEXT  
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div data-editorblocktype="Text" style="line-height:20px;">
+									<div aria-activedescendant="" aria-autocomplete="list" aria-controls="cke_60" aria-describedby="cke_59" aria-expanded="false" aria-multiline="true" aria-readonly="false" id="" spellcheck="true" tabindex="0">
+									<p style="font-size:24px; color:#09205c"><span class="dark-scheme-font"><b><strong>Ciao&nbsp;<span class="msdynmkt_personalization ">{{FirstName}}</span>, </strong></b> </span></p>
+
+									<p style="line-height: 20px; margin-bottom: 20px; font-weight: 400; color:#09205c"><span class="dark-scheme-font">saranno passati mesi dall&#39;ultima volta che ti abbiamo visto, ma non abbiamo mai smesso di pensarti. Ecco perch&eacute; ti abbiamo riservato <strong>50 punti</strong> per festeggiare un tuo possibile ritorno. </span></p>
+
+									<p style="line-height: 20px; margin-bottom: 20px; font-weight: 400; color:#09205c"><span class="dark-scheme-font">Accedi al tuo profilo <strong>TENA Punti Fedelt&agrave;</strong> nei <strong>prossimi 15 giorni</strong>: i punti si caricheranno automaticamente e potrai utilizzarli per richiedere buoni sconto sui prodotti TENA o fantastici premi.</span></p>
+
+									<p style="line-height: 20px; margin-bottom: 20px; font-weight: 400; color:#09205c"><span class="dark-scheme-font">Non farci aspettare ancora!.. </span></p>
+
+									<p class="dark-scheme-font" style="margin-bottom: 20px; color:#09205c">&nbsp;</p>
+									</div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                DEM TEXT BUTTON  
+                                ----------------------------------------------------------------
+                              </div> -->
+
+									<div align="center" data-editorblocktype="Text" style="text-align: -webkit-center;">
+									<p class="dark-scheme-background" style="width:fit-content; padding: 6px 24px; border-radius: 26px; background-color: #09205c; color: #fff; border: 2px solid #fff; font-size: 16px;"><a data-msdyn-tracking="null" data-msdyn-tracking-id="259bf85e-e47b-4950-8864-1f4f1fd9cae0" href="https://adb2cdoingatc.b2clogin.com/adb2cdoingatc.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_SIGNUP_SIGNIN&amp;client_id=509804e7-d7b5-4ebc-830e-1f9107773546&amp;nonce=defaultNonce&amp;redirect_uri=https%3A%2F%2Fdedicatoame.it%2Feventloginuser&amp;scope=openid&amp;response_type=id_token&amp;prompt=login&amp;utm_source=dem&amp;utm_campaign=IT_TENA_Search_Essity-All_INCO-All_Brand_Brand_Other_TENA-BailedOut_Reactiv#_msdynmkt_donottrack=0,_msdynmkt_linkid=fba4148a-aed6-4d3a-a708-e7b33b1bb10e">Torna su Dedicatoame</a></p>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                DEM TEXT  
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div data-editorblocktype="Text" style="line-height: 20px; margin-bottom: 20px;">
+									<p class="dark-scheme-font" style="margin: .5px 0; color: #09205c;"><span class="dark-scheme-font" style="font-weight: 400;">Speriamo a&nbsp;presto, </span></p>
+
+									<p class="dark-scheme-font" style="margin: .5px 0; color: #09205c;"><span class="dark-scheme-font" style="font-weight: 400;">il team TENA </span></p>
+									</div>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+					</tr>
+				</tbody>
+			</table>
+			</th>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!--<div style="display: none;">
+      ----------------------------------------------------------------
+      SEZIONE BANNER
+      ----------------------------------------------------------------
+    </div>-->
+
+<div class="emptyContainer columns-equal-class wrap-section" data-section="true">
+<table cellpadding="0" cellspacing="0" class="outer" data-container-width="100" role="presentation" width="100%">
+	<tbody>
+		<tr>
+			<th role="presentation">
+			<table cellpadding="0" cellspacing="0" class="containerWrapper tbContainer" role="presentation" style="padding: 10px;">
+				<tbody>
+					<tr>
+						<th class="columnContainer" data-container="true" data-container-width="100" id="" role="presentation"><br />
+						&nbsp;</th>
+					</tr>
+				</tbody>
+			</table>
+			</th>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!--<div style="display: none;">
+      ----------------------------------------------------------------
+      SEZIONE FOOTER
+      ----------------------------------------------------------------
+    </div>-->
+
+<div class="emptyContainer columns-equal-class wrap-section" data-section="true">
+<table align="center" bgcolor="#09205c" cellpadding="0" cellspacing="0" class="outer" role="presentation">
+	<tbody>
+		<tr><!--<div style="display: none;">
+              ----------------------------------------------------------------
+              FOOTER BACKGROUND IMAGE
+              ----------------------------------------------------------------
+            </div>-->
+			<th class="footer" data-background-image-file-id="9ee91e35-40f0-ef11-be1f-7c1e52351a98" role="presentation" style="position: relative; padding: 0px; border-width: 0px; border-style: none; border-radius: 0px; background-position: 50% 50%; background-size: cover; background-origin: border-box; background-color:#09205c"><!--<div style="display: none;">
+                ----------------------------------------------------------------
+                FOOTER SOCIAL SECTION
+                ----------------------------------------------------------------
+              </div>-->
+			<table cellpadding="0" cellspacing="0" class="containerWrapper tbContainer multi" role="presentation" style="margin: 24px auto; max-width: 300px;">
+				<tbody>
+					<tr align="center" class="trSocial" style="padding: 10px;"><!--<div style="display: none;">
+                      ----------------------------------------------------------------
+                      FOOTER FACEBOOK MAN SECTION
+                      ----------------------------------------------------------------
+                    </div>-->
+						<th class="columnContainer socialItem" data-container="true" id="" role="presentation" width="20%">
+						<table cellpadding="0" cellspacing="0" role="presentation" style="max-width: fit-content;" width="100%">
+							<tbody>
+								<tr>
+									<th class="columnContainer inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                FACEBOOK MAN DESKTOP IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div class="facebookManDesktop" data-editorblocktype="Image">
+									<div align="right" class="imageWrapper facebookIcon facebookMan" data-image-file-id="ba148b4f-80f3-ef11-be1f-7c1e521faa7d" width="100%"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK
+                                    ----------------------------------------------------------------
+                                  </div>--><a href="https://www.facebook.com/DedicatoaMen#_msdynmkt_linkid=7372918f-5c0c-47aa-b984-3514c9d5d02e" rel="noopener noreferrer" style="color: #fff!important;" target="_blank"><img align="left" alt="tena facebook man" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/038c43eb-842a-f011-8c4e-000d3ad9c83c?ts=638821378897109557" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/038c43eb-842a-f011-8c4e-000d3ad9c83c?ts=638821378897109557" style="float: left;" /> </a> <!-- CLEAR -->
+
+									<div class="clear" style="clear: both; height: 0px; width: 0px;">&nbsp;</div>
+									</div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                FACEBOOK MAN MOBILE IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div class="facebookManMobile" data-editorblocktype="Image">
+									<div align="right" class="imageWrapper facebookIcon facebookMan" data-image-file-id="bb148b4f-80f3-ef11-be1f-7c1e521faa7d" width="100%"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK
+                                    ----------------------------------------------------------------
+                                  </div>--><a href="https://www.facebook.com/DedicatoaMen#_msdynmkt_linkid=aa4ee808-6dfc-4f2d-9671-4b823a6ce9e8" rel="noopener noreferrer" style="color: #fff!important;" target="_blank"><img alt="tena facebook man" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/038c43eb-842a-f011-8c4e-000d3ad9c83c?ts=638821378897109557" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/038c43eb-842a-f011-8c4e-000d3ad9c83c?ts=638821378897109557" /> </a> <!-- CLEAR -->
+
+									<div class="clear" style="clear: both; height: 0px; width: 0px;">&nbsp;</div>
+									</div>
+									</div>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+						<!--<div style="display: none;">
+                      ----------------------------------------------------------------
+                      FOOTER FACEBOOK WOMAN SECTION
+                      ----------------------------------------------------------------
+                    </div>-->
+						<th class="columnContainer socialItem" data-container="true" id="" role="presentation" width="20%">
+						<table cellpadding="0" cellspacing="0" role="presentation" style="max-width: fit-content;" width="100%">
+							<tbody>
+								<tr>
+									<th class="columnContainer inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                FACEBOOK WOMAN DESKTOP IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div class="facebookWomanDesktop" data-editorblocktype="Image">
+									<div align="right" class="imageWrapper facebookIcon facebookWoman" data-image-file-id="bc148b4f-80f3-ef11-be1f-7c1e521faa7d" width="100%"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK
+                                    ----------------------------------------------------------------
+                                  </div>--><a href="https://www.facebook.com/dedicatoame?locale=it_IT#_msdynmkt_linkid=04a4ad83-9b4c-4dbd-b9e6-7e302eaad408" rel="noopener noreferrer" style="color: #fff!important;" target="_blank"><img align="left" alt="tena facebook woman" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/028c43eb-842a-f011-8c4e-000d3ad9c83c?ts=638821378907422402" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/028c43eb-842a-f011-8c4e-000d3ad9c83c?ts=638821378907422402" style="float: left;" /> </a> <!-- CLEAR -->
+									<div class="clear" style="clear: both; height: 0px; width: 0px;">&nbsp;</div>
+									</div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                FACEBOOK WOMAN MOBILE IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div class="facebookWomanMobile" data-editorblocktype="Image">
+									<div align="right" class="imageWrapper facebookIcon facebookWoman" data-image-file-id="bd148b4f-80f3-ef11-be1f-7c1e521faa7d" width="100%"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK
+                                    ----------------------------------------------------------------
+                                  </div>--><a href="https://www.facebook.com/dedicatoame?locale=it_IT#_msdynmkt_linkid=14d2a1eb-2e04-4bbd-ba68-25e246365571" rel="noopener noreferrer" style="color: #fff!important;" target="_blank"><img alt="tena facebook woman" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/028c43eb-842a-f011-8c4e-000d3ad9c83c?ts=638821378907422402" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/028c43eb-842a-f011-8c4e-000d3ad9c83c?ts=638821378907422402" /> </a> <!-- CLEAR -->
+
+									<div class="clear" style="clear: both; height: 0px; width: 0px;">&nbsp;</div>
+									</div>
+									</div>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+						<!--<div style="display: none;">
+                      ----------------------------------------------------------------
+                      FOOTER INSTAGRAM SECTION
+                      ----------------------------------------------------------------
+                    </div>-->
+						<th class="columnContainer socialItem" data-container="true" id="" role="presentation" width="20%">
+						<table cellpadding="0" cellspacing="0" role="presentation" style="max-width: fit-content;" width="100%">
+							<tbody>
+								<tr>
+									<th class="columnContainer inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                INSTAGRAM DESKTOP IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div class="instagramIconDesktop" data-editorblocktype="Image">
+									<div align="left" class="imageWrapper instagramIcon" width="100%"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK
+                                    ----------------------------------------------------------------
+                                  </div>--><a href="https://www.instagram.com/dedicatoame.it/##_msdynmkt_linkid=74e2d4f5-b66c-4e73-aa3d-2d994bc1a9a1" rel="noopener noreferrer" style="color: #fff!important;" target="_blank"><img align="left" alt="tena instagram" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/ace02fd8-852a-f011-8c4e-000d3ad9c83c?ts=638821382889520917" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/ace02fd8-852a-f011-8c4e-000d3ad9c83c?ts=638821382889520917" style="float: left;" /> </a>
+									<div class="clear" style="clear: both; height: 0px; width: 0px;">&nbsp;</div>
+									</div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                INSTAGRAM MOBILE IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div class="instagramIconMobile" data-editorblocktype="Image">
+									<div align="left" class="imageWrapper instagramIcon" width="100%"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK
+                                    ----------------------------------------------------------------
+                                  </div>--><a href="https://www.instagram.com/dedicatoame.it/##_msdynmkt_linkid=ff991f66-b3e0-409e-9b1e-2aae141b0079" rel="noopener noreferrer" style="color: #fff!important;" target="_blank"><img alt="tena instagram" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/ace02fd8-852a-f011-8c4e-000d3ad9c83c?ts=638821382889520917" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/ace02fd8-852a-f011-8c4e-000d3ad9c83c?ts=638821382889520917" /> </a>
+
+									<div class="clear" style="clear: both; height: 0px; width: 0px;">&nbsp;</div>
+									</div>
+									</div>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+					</tr>
+				</tbody>
+			</table>
+			<!--<div style="display: none;">
+                ----------------------------------------------------------------
+                FOOTER TEXT SECTION 
+                ----------------------------------------------------------------
+              </div>-->
+
+			<table cellpadding="0" cellspacing="0" class="containerWrapper tbContainer" role="presentation" style="margin-bottom: 24px; padding: 10px; color: #fff; text-align: center;">
+				<tbody>
+					<tr>
+						<th class="columnContainer" data-container="true" data-container-width="100" id="" role="presentation">
+						<table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<th align="center" class="inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                TEXT
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div align="center" data-editorblocktype="Text">
+									<p style="color: #fff!important;"><span class="dark-scheme-font" style="color: #fff!important;"><b><strong>Hai bisogno di aiuto?</strong></b> </span></p>
+									</div>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+					</tr>
+				</tbody>
+			</table>
+			<!--<div style="display: none;">
+                ----------------------------------------------------------------
+                FOOTER ACTIONS SECTION [CHIAMACI, SCRIVICI, CONTATTACI]
+                ----------------------------------------------------------------
+              </div>-->
+
+			<table cellpadding="0" cellspacing="0" class="containerWrapper tbContainer multi footerActions" role="presentation" style="margin: 0 auto; max-width: 500px; padding: 10px; color: #fff;">
+				<tbody>
+					<tr><!--<div style="display: none;">
+                      ----------------------------------------------------------------
+                      CHIAMACI
+                      ----------------------------------------------------------------
+                    </div>-->
+						<th class="columnContainer footerAction" data-container="true" data-container-width="33.33" id="" role="presentation" style="box-sizing: border-box;" width="33.33%">
+						<table align="center" cellpadding="0" cellspacing="0" role="presentation" valign="top" width="100%">
+							<tbody>
+								<tr>
+									<th class="columnContainer inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                CHIAMACI DESKTOP IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div class="chiamaciIconDesktop" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="de651d01-3be5-ef11-a730-002248a35010"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK
+                                    ----------------------------------------------------------------
+                                  </div>--><img alt="chiamaci" class="footerActionImage" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/de651d01-3be5-ef11-a730-002248a35010?ts=638745195122716058" height="42" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/de651d01-3be5-ef11-a730-002248a35010?ts=638745195122716058" style="height: 30px; width: auto;" width="105" /> <!--<div style="display: none;">
+                                      ----------------------------------------------------------------
+                                      CHIAMACI MOBILE IMAGE
+                                      ----------------------------------------------------------------
+                                    </div>--> <img alt="chiamaci" class="footerActionImage chiamaciIconMobile" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/4c0079b1-40f0-ef11-be1f-7c1e52351a98?ts=638757314150970110" height="42" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/4c0079b1-40f0-ef11-be1f-7c1e52351a98?ts=638757314150970110" style="height: 30px; width: auto;" width="105" /></div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                CHIAMACI MOBILE IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div class="chiamaciIconMobile" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="4c0079b1-40f0-ef11-be1f-7c1e52351a98"><!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    LINK
+                                    ----------------------------------------------------------------
+                                  </div>--><img alt="chiamaci" class="footerActionImage" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/4c0079b1-40f0-ef11-be1f-7c1e52351a98?ts=638757314150970110" height="42" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/4c0079b1-40f0-ef11-be1f-7c1e52351a98?ts=638757314150970110" style="height: 30px; width: auto;" width="105" /></div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                CHIAMACI TEXT
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div data-editorblocktype="Text" style="height: 50px;">
+									<p class="dark-scheme-font" style="font-weight: 400; color: #fff!important;"><span class="dark-scheme-font" style="color: #fff!important;"><a class="dark-scheme-font" href="tel:800890159" style="color: #fff!important;text-decoration:none;">Chiamaci </a> </span></p>
+
+									<p class="hideOnMobile" style="color: #fff!important;"><a class="dark-scheme-font" href="tel:800890159" style="color: #fff!important;"><span class="dark-scheme-font" style="color: #fff!important;"><b><strong>800 890 159 </strong></b></span> </a></p>
+									</div>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+						<!--<div style="display: none;">
+                      ----------------------------------------------------------------
+                      SCRIVICI
+                      ----------------------------------------------------------------
+                    </div>-->
+						<th class="columnContainer footerAction" data-container="true" data-container-width="33.33" id="" role="presentation" style="box-sizing: border-box;" width="33.33%">
+						<table align="center" cellpadding="0" cellspacing="0" role="presentation" valign="top" width="100%">
+							<tbody>
+								<tr>
+									<th class="columnContainer inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                SCRIVICI DESKTOP IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div class="scriviciIconDesktop" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="dc651d01-3be5-ef11-a730-002248a35010"><img alt="scrivici" class="footerActionImage" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/dc651d01-3be5-ef11-a730-002248a35010?ts=638745195122716058" height="42" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/dc651d01-3be5-ef11-a730-002248a35010?ts=638745195122716058" style="height: 30px; width: auto;" width="105" /> <!--<div style="display: none;">
+                                    ----------------------------------------------------------------
+                                    SCRIVICI MOBILE IMAGE
+                                    ----------------------------------------------------------------
+                                  </div>--> <img alt="scrivici" class="footerActionImage scriviciIconMobile" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/740079b1-40f0-ef11-be1f-7c1e52351a98?ts=638757314167845257" height="42" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/740079b1-40f0-ef11-be1f-7c1e52351a98?ts=638757314167845257" style="height: 30px; width: auto;" width="105" /></div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                SCRIVICI MOBILE IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div class="scriviciIconMobile" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="740079b1-40f0-ef11-be1f-7c1e52351a98"><img alt="scrivici" class="footerActionImage" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/740079b1-40f0-ef11-be1f-7c1e52351a98?ts=638757314167845257" height="42" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/740079b1-40f0-ef11-be1f-7c1e52351a98?ts=638757314167845257" style="height: 30px; width: auto;" width="105" /></div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                SCRIVICI TEXT
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div data-editorblocktype="Text" style="height: 50px;">
+									<p class="dark-scheme-font" style="color: #fff!important;"><span class="dark-scheme-font" style="color: #fff!important; font-weight: 400;"><a class="dark-scheme-font" href="mailto:infotena.it@essity.com" rel="noopener noreferrer" style="color: #fff!important;text-decoration:none;" target="_blank">Scrivici </a> </span></p>
+
+									<p class="hideOnMobile"><span class="dark-scheme-font" style="color: #fff!important;"><a class="dark-scheme-font" href="mailto:infotena.it@essity.com" rel="noopener noreferrer" style="color: #fff!important;" target="_blank"><b><strong>infotena.it@essity.com</strong></b> </a> </span></p>
+									</div>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+						<!--<div style="display: none;">
+                      ----------------------------------------------------------------
+                      CONTATTACI
+                      ----------------------------------------------------------------
+                    </div>-->
+						<th class="columnContainer footerAction" data-container="true" data-container-width="33.33" id="" role="presentation" style="box-sizing: border-box;" width="33.33%">
+						<table align="center" cellpadding="0" cellspacing="0" role="presentation" valign="top" width="100%">
+							<tbody>
+								<tr>
+									<th class="columnContainer inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                CONTATTACI DESKTOP IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div class="contattaciIconDesktop" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="b4df72c3-cbf5-ef11-be1f-6045bddddf47"><img alt="contattaci" class="footerActionImage" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/b4df72c3-cbf5-ef11-be1f-6045bddddf47?ts=638763409019592034" height="42" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/b4df72c3-cbf5-ef11-be1f-6045bddddf47?ts=638763409019592034" style="height: 30px; width: auto;" width="105" /></div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                CONTATTACI MOBILE IMAGE
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div class="contattaciIconMobile" data-editorblocktype="Image">
+									<div align="Center" class="imageWrapper" data-image-file-id="b5df72c3-cbf5-ef11-be1f-6045bddddf47"><img alt="contattaci" class="footerActionImage" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/b5df72c3-cbf5-ef11-be1f-6045bddddf47?ts=638763409019592034" height="42" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/b5df72c3-cbf5-ef11-be1f-6045bddddf47?ts=638763409019592034" style="height: 30px; width: auto;" width="105" /></div>
+									</div>
+									<!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                CONTATTACI TEXT
+                                ----------------------------------------------------------------
+                              </div>-->
+
+									<div data-editorblocktype="Text" style="height: 50px;">
+									<p class="dark-scheme-font" style="font-weight: 400; color: #fff!important;"><a class="dark-scheme-font" href="https://www.tena.it/contattaci#_msdynmkt_linkid=93c51049-0bd4-4a99-9c1c-7676609dbf13" rel="noopener noreferrer" target="_blank"><span class="dark-scheme-font" style="color: #fff!important;">Contattaci </span> </a></p>
+									</div>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+					</tr>
+				</tbody>
+			</table>
+			<!--<div style="display: none;">
+                ----------------------------------------------------------------
+                FOOTER TEXT SECTION
+                ----------------------------------------------------------------
+              </div>-->
+
+			<table cellpadding="0" cellspacing="0" class="containerWrapper tbContainer" role="presentation" style="padding: 20px; color: #fff; text-align: center;">
+				<tbody>
+					<tr>
+						<th class="columnContainer" data-container="true" data-container-width="100" id="" role="presentation">
+						<table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<th class="inner" role="presentation"><!--<div style="display: none;">
+                                ----------------------------------------------------------------
+                                TEXT
+                                ----------------------------------------------------------------
+                              </div>-->
+									<div data-editorblocktype="Text">
+									<p class="dark-scheme-font" style="font-weight: 400; padding: .5rem 1rem; color: #fff!important;"><span class="dark-scheme-font" style="color: #fff!important;">Questa e-mail &egrave; stata generata automaticamente. Si prega di non rispondere a questo messaggio. </span></p>
+									</div>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</th>
+					</tr>
+				</tbody>
+			</table>
+			</th>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
