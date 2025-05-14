@@ -34,8 +34,14 @@
       header img {
         height: 90%;
       }
-
-
+      @media (prefers-color-scheme: dark) {
+        .footer-table {
+          background-color: #0a205c !important;
+        }
+        .tena-banner {
+           color: "#fff" !important;
+        }
+      }
 
       @media only screen and (max-width: 600px) {
         .responsive-table {
@@ -197,7 +203,7 @@
       <tbody>
         <tr>
           <td
-            class="stack-column" 
+            class="stack-column tena-banner" 
             width="100%"
             align="center"
             style="
@@ -214,7 +220,7 @@
         </tr>
         <tr>
           <td
-            class="stack-column" 
+            class="stack-column tena-banner" 
             width="100%"
             align="center"
             style="
@@ -260,7 +266,7 @@
                   />
 
                   <span
-                    class="donnad-text"
+                    class="donnad-text tena-banner"
                     style="
                       font-family: 'open sans', sans-serif;;
                       font-style: normal;
@@ -300,7 +306,7 @@
                   />
 
                   <span
-                    class="donnad-text"
+                    class="donnad-text tena-banner"
                     style="
                       font-family: 'open sans', sans-serif;;
                       font-style: normal;
@@ -340,7 +346,7 @@
                   />
 
                   <span
-                    class="donnad-text"
+                    class="donnad-text tena-banner"
                     style="
                       font-family: 'open sans', sans-serif;;
                       font-style: normal;
@@ -378,7 +384,7 @@
                   />
 
                   <span
-                    class="donnad-text"
+                    class="donnad-text tena-banner"
                     style="
                       font-family: 'open sans', sans-serif;;
                       font-style: normal;
@@ -403,7 +409,7 @@
         </tr>
         <tr>
             <td
-              class="stack-column" 
+              class="stack-column tena-banner" 
               width="100%"
               align="center"
               style="
@@ -469,7 +475,6 @@
               height="80"
               style="height: 80px; padding: 15px 0 20px;"
             >
-                <!-- nota: togliere il div e mettere width e height all'img -->
                 <img
                   class="logo-img"
                   src="https://dedicatoame.it/wp-content/uploads/2023/04/puntifedelta-logo.webp"
@@ -612,7 +617,6 @@
                 style="
                 padding-top: 10px;
                   "
-                align="center"
                 >
                 <a
                 rel="noopener"
@@ -721,8 +725,7 @@
                 class="donnad-padding-0"
                 style="
                 padding-top: 10px;
-                  "
-                align="center"
+                "
                 >
                 <a
                 rel="noopener"
@@ -800,7 +803,7 @@
   </table>
     <!-- FOOTER -->
   <table 
-        class="responsive-table articles" 
+        class="responsive-table articles footer-table" 
         width="550"
         border="0"
         cellpadding="0"
