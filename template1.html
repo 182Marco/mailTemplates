@@ -42,8 +42,32 @@
            color: "#fff" !important;
         }
       }
-
+      .only-mobile.stack-column {
+        height: 0 !important;
+        width: 0 !important;
+        visibility: hidden !important;
+        mso-hide: all !important;
+      }
+      .only-mobile.stack-column td {
+        width: 0 !important;
+        height: 0 !important;
+        visibility: hidden !important;
+        mso-hide: all !important;
+        padding: 0 !important;
+        padding-left: 0 !important;
+      }
       @media only screen and (max-width: 600px) {
+        table.New3-3 {
+          width: 100% !important;
+          text-align: center !important;
+        }
+        img[class="img1"] {
+          width: 100% !important;
+        }
+        img.img1 {
+          width: 100% !important;
+          height: auto !important;
+        }
         .responsive-table {
           width: 100% !important;
         }
@@ -63,14 +87,24 @@
         .articles .article-text.second-article {
           padding-bottom: 20px  !important;
         }
-          td:nth-child(1).second-table-articles {
+        .stack-column.article-text.second-article.second-table-articles.only-desk {
+          height: 0 !important;
+          visibility: hidden !important;
+          mso-hide: all !important;
+          padding: 0 !important;
+        }
+        .only-mobile {
+          height: unset !important;
+          visibility: visible !important;
+        }
+/*         td:nth-child(1).second-table-articles {
 
-            display: table-footer-group !important;
+          display: table-footer-group !important;
 
-          }
-          td:nth-child(2).second-table-articles {    
-            display: table-header-group !important;
-          }
+        }
+        td:nth-child(2).second-table-articles {    
+          display: table-header-group !important;
+        } */
         
         .triple-table  img {
             max-width: 40%;
@@ -101,7 +135,7 @@
     <!-- HEADER LOGO -->
     <table
       class="responsive-table" 
-      width="550"
+      width="600"
       bgcolor="#0a205c"
       border="0"
       cellpadding="0"
@@ -109,7 +143,7 @@
       align="center"
       style="
         border-collapse: collapse;
-        width: 550px;
+        width: 600px;
         background-color: #0a205c;
         margin: 0 auto;
       "
@@ -119,7 +153,7 @@
           <td
             align="center"
             border="0"
-            width="550"
+            width="600"
             height="80"
             style="height: 80px"
           >
@@ -132,7 +166,7 @@
                   -ms-text-size-adjust: 100%;
                   -webkit-text-size-adjust: 100%;
                   border: 0;
-                  width: 550px;
+                  width: 600px;
                 "
               />
             </a>
@@ -143,14 +177,14 @@
     <!-- GREET -->
     <table
       class="responsive-table" 
-      width="550"
+      width="600"
       border="0"
       cellpadding="0"
       cellspacing="0"
       align="center"
       style="
         border-collapse: collapse;
-        width: 550px;
+        width: 600px;
         margin: 0 auto;
       "
     >
@@ -162,7 +196,7 @@
             bgcolor="#ffffff"
             align="center"
             border="0"
-            width="550"
+            width="600"
             style="padding: 45px 20px"
           >
             <span
@@ -237,9 +271,9 @@
         </tr>
 
         <tr>
-          <td align="center" border="0" width="550">
+          <td align="center" border="0" width="600">
             <table
-              width="550"
+              width="600"
               border="0"
               cellspacing="0"
               cellpadding="0"
@@ -471,7 +505,7 @@
             <td
               align="center"
               border="0"
-              width="550"
+              width="600"
               height="80"
               style="height: 80px; padding: 15px 0 20px;"
             >
@@ -494,14 +528,14 @@
     </table>
     <table
     class="responsive-table" 
-    width="550"
+    width="600"
     border="0"
     cellpadding="0"
     cellspacing="0"
     align="center"
     style="
       border-collapse: collapse;
-      width: 550px;
+      width: 600px;
       margin: 0 auto;
     "
   >
@@ -511,7 +545,7 @@
           bgcolor="#ffffff"
           align="center"
           border="0"
-          width="550"
+          width="600"
           style="padding: 45px 20px 10px"
         >
           <span
@@ -537,7 +571,7 @@
           bgcolor="#ffffff"
           align="center"
           border="0"
-          width="550"
+          width="600"
           style="padding: 0 40px 30px"
         >
           <span
@@ -558,7 +592,7 @@
     </tbody>
   </table>
   <table     class="responsive-table" 
-  width="550"
+  width="600"
   border="0"
   cellpadding="0"
   cellspacing="0"
@@ -566,7 +600,7 @@
   class="responsive-table articles"
   style="
     border-collapse: collapse;
-    width: 550px;
+    width: 600px;
     margin: 0 auto;
     padding-bottom: 30px;
   ">
@@ -662,14 +696,14 @@
     </tbody>
   </table>
   <!-- SPACING -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 550px; width: 100%; height: 33px; margin: 0 auto;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; width: 100%; height: 33px; margin: 0 auto;">
     <tr>
      <td style="height: 33px;"></td>
     </tr>
   </table>
   <!-- ARTICLE 2 -->
   <table class="responsive-table articles" 
-  width="550"
+  width="600"
   border="0"
   cellpadding="0"
   cellspacing="0"
@@ -677,18 +711,18 @@
   class="responsive-table article"
   style="
     border-collapse: collapse;
-    width: 550px;
+    width: 600px;
     margin: 0 auto;
   ">
     <tbody>
       <tr>
         <td 
-          class="stack-column article-text second-article second-table-articles"
+          class="stack-column article-text second-article second-table-articles only-desk"
           style="
           padding-right: 10%;
           padding-left: 20px;
         ">    
-         <table>
+         <table >
           <tbody>
             <tr>
               <td  
@@ -774,12 +808,238 @@
         width: 100%;
         " src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/364a1089-3d2b-f011-8c4e-000d3ab90b2a?ts=638822171791657174" alt="yoga girl img">
       </td>
+      
+<!--[if mso]>
+<style type="text/css">
+  .hidden { mso-hide: all; }
+</style>
+<![endif]-->
+
+      <td class="only-mobile stack-column">
+        <table>
+          <tbody>
+            <tr>
+              <td  
+              class="article-padding"
+              style="
+              font-size: 12px;
+              padding-top: 25px;
+            ">
+                PRIMAVERA DI RINASCITA, CON LA GIUSTA ALLEATA!
+              </td>
+            </tr>
+            <tr>
+              <td
+              class="article-padding"   
+              style="
+              font-size: 15px;
+              font-weight: 700;
+              padding: 10px 0;
+            ">
+                  3 motivi per iniziare a fare meditazione
+              </td>
+            </tr>
+            <tr>
+              <td 
+              class="article-padding"
+              style="
+              font-size: 10px;
+            ">
+                Scopriamo insieme i benefici di questa pratica sempre più diffusa e perchè può valere la pena iniziare la meditazione, dal mattino alla sera.
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="donnad-padding-0"
+                style="
+                padding-top: 10px;
+                padding-left: 25px;
+                "
+                >
+                <a
+                rel="noopener"
+                target="_blank"
+                href="https://dedicatoame.it/i-benefici-della-meditazione-dal-risveglio-al-sonno/?utm_medium=organic-email&utm_source=newsletter&utm_campaign=IT_TENA_Search_Essity-All_INCO-All_Brand_Brand_Other_TENA-May-Newsletter-1_Local-Information_2025-05_2025-05"
+                target="_blank"
+                style="
+                    background-color:  #0b205b;
+                    border-radius: 50px;
+                    font-size: 12px;
+                    font-family: Helvetica, Arial, sans-serif;
+                    text-decoration: none;
+                    display: inline-block;
+                    padding: 6px 16px;
+                    cursor: pointer;
+                  "
+                >
+                  <span
+                    class="donnad-cta-34"
+                    style="
+                      font-family: 'open sans', sans-serif;;
+                      font-style: normal;
+                      font-weight: bold;
+                      font-size: 16px;
+                      line-height: 24px;
+                      text-align: center;
+                      text-decoration: none;
+                      display: inline-block;
+                      background-color:  #0b205b;
+                      border-radius: 50px;
+                      color: #ffffff ;
+                    "
+                  >
+                   Leggi l'articolo
+                  </span>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
       </tr>
     </tbody>
   </table>
+  <!-- VISUAL --><!-- ARTICOLO 1 -->
+
+<table class="responsive-table" align="center" bgcolor="#eceff3" border="0" cellpadding="0" cellspacing="0" data-bgcolor="Main BG" data-module="module-3_39519" style="position: relative; max-width: 900px; opacity: 1; z-index: 0; background-color: rgb(255, 255, 255); top: 0px; left: 0px; margin: 0 auto;" width="600">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="New-600" data-bgcolor="Container" style="background-color: rgb(255, 255, 255);max-width: 1200px;" width="100%">
+				<tbody>
+					<tr>
+						<td height="40">&nbsp;</td>
+					</tr>
+					<tr>
+						<td>
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="New3-3" width="90%">
+							<tbody>
+								<tr>
+									<td align="left"><!-- img -->
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="New3-3" width="50%">
+										<tbody>
+											<tr>
+												<td align="center" class="New3-3"><img alt="" class="img1" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/2b4a1089-3d2b-f011-8c4e-000d3ab90b2a?ts=638822171791500875" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/2b4a1089-3d2b-f011-8c4e-000d3ab90b2a?ts=638822171791500875" style="width: 100%;" /></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- end img --><!-- text -->
+
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="New3-3" width="50%">
+										<tbody>
+											<tr>
+												<td height="50">&nbsp;</td>
+											</tr>
+											<tr>
+												<td align="left" data-color="1a Headline" data-link-color="1a Content Link" data-link-style="text-decoration:none; color:#3498db;" data-size="1Headline" style="font-family: 'Open Sans', Arial, sans-serif;color: #1d388b;font-size: 14px;font-weight: 400;line-height: 23.8px; padding: 0 30px;"><span style="color:#1d388b;text-transform: uppercase;">STANCHEZZA,POCA ENERGIA E SBALZI D'UMORE? </span></td>
+											</tr>
+											<!-- end title --><!-- content -->
+											<tr>
+												<td align="left" data-color="Mains Text 5a" data-link-color="Content Link 5a" data-link-style="text-decoration:none; color:#3498db;" data-size="Main Text 5a" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(0, 0, 0); font-size: 24px; font-weight: 100; padding: 0 30px;">Scopri cos'è l'astemia primaverile e come combatterla</td>
+											</tr>
+											<!-- end content -->
+											<tr>
+												<td height="15">&nbsp;</td>
+											</tr>
+											<tr>
+												<td align="left" data-color="Mainss1 Text" data-link-color="Contents1 Link" data-link-style="text-decoration:none; color:#3498db;" data-size="Mains1 Text" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(47, 45, 45); font-size: 14px; line-height: 23.8px; padding: 0 30px;">
+                          L'astemia primaverile può provocare alterazioni del nostro stato d'animo. Ma, grazie ad alcuni alimenti, possiamo affrontare e godere a pieno della primavera!</td>
+											</tr>
+											<tr>
+												<td height="20">&nbsp;</td>
+											</tr>
+											<tr>
+												<td align="left" data-link-color="Text Link" data-link-style="text-decoration:none; color:#FFFFFF;" height="40" style="padding-left: 30px;"><a data-color="Text Link" data-msdyn-tracking="null" data-msdyn-tracking-id="885e6a98-93ea-4768-b913-0e2a59c54bae" data-size="Main Text3" href="https://dedicatoame.it/cibo-sano-e-divertente-da-preparare-ricette-originali-che-devi-provare/?utm_medium=organic-email&amp;utm_source=newsletter&amp;utm_campaign=IT_TENA_Search_Essity-All_INCO-All_Brand_Brand_Other_ TENA-April-Newsletter-1_Local-Information_2025-04_2025-04#_msdynmkt_linkid=a414e19a-8742-40c7-915a-7073d7441bc8" style="border-radius: 5px; font-family: 'Open Sans', Arial, sans-serif; color: #FFFFFF; font-size: 16px; line-height: 15.1px; font-weight: 400; display: inline-block; padding: 10px 30px; background-color: #0b205b; text-decoration: none; border-radius: 50px;" target="_blank" title="Leggi l'articolo">Leggi l&#39;articolo </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- end left --></td>
+					</tr>
+					<tr>
+						<td height="10">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!--ARTICOLO 1 --><!-- ARTICOLO 2 -->
+
+<table class="responsive-table" align="center" bgcolor="#eceff3" border="0" cellpadding="0" cellspacing="0" data-bgcolor="Main BG" data-module="module-4_21562" style="position: relative;max-width: 900px; opacity: 1; z-index: 0; background-color: rgb(255, 255, 255); top: 0px; left: 0px; margin: 0 auto;" width="600">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="New-600" data-bgcolor="Container" style="background-color: rgb(255, 255, 255);max-width: 1200px;" width="100%">
+				<tbody>
+					<tr>
+						<td height="40">&nbsp;</td>
+					</tr>
+					<tr>
+						<td><!-- left -->
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="New3-3" width="90%">
+							<tbody>
+								<tr>
+									<td align="left"><!-- img -->
+									<table align="right" border="0" cellpadding="0" cellspacing="0" class="New3-3" width="50%">
+										<tbody>
+											<tr>
+																							<td align="center" class="New3-3"><img alt="" class="img1" data-src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/364a1089-3d2b-f011-8c4e-000d3ab90b2a?ts=638822171791657174" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/364a1089-3d2b-f011-8c4e-000d3ab90b2a?ts=638822171791657174" style="width: 100%;" /></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- end img -->
+
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="New3-3" width="50%">
+										<tbody>
+											<tr>
+												<td height="50">&nbsp;</td>
+											</tr>
+											<tr>
+												<td align="left" data-color="1a Headline" data-link-color="1a Content Link" data-link-style="text-decoration:none; color:#1d388b;" data-size="1Headline" style="font-family: 'Open Sans', Arial, sans-serif;color: #1d388b;font-size: 14px;font-weight: 400;line-height: 23.8px; padding: 0 30px;"><span style="color:#1d388b;text-transform: uppercase;">I 6 benefici degli amici sulla tua salute</span></td>
+											</tr>
+											<!-- end title --><!-- content -->
+											<tr>
+												<td align="left" data-color="Mains Text 5a" data-link-color="Content Link 5a" data-link-style="text-decoration:none; color:#3498db;" data-size="Main Text 5a" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(0, 0, 0); font-size: 24px; font-weight: 100; padding: 0 30px;">Pasqua, Pasquetta e amici:<br />
+												il trio perfetto!</td>
+											</tr>
+											<!-- end content -->
+											<tr>
+												<td height="15">&nbsp;</td>
+											</tr>
+											<tr>
+												<td align="left" data-color="Mainss1 Text" data-link-color="Contents1 Link" data-link-style="text-decoration:none; color:#3498db;" data-size="Mains1 Text" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(47, 45, 45); font-size: 14px; line-height: 23.8px; padding: 0 30px;">&quot;Chi trova un amico trova un tesoro&quot;, dice il saggio. E il tuo benessere conferma! Scopri come e perch&eacute; nel nostro articolo.</td>
+											</tr>
+											<tr>
+												<td height="30">&nbsp;</td>
+											</tr>
+											<tr>
+												<td align="left" data-link-color="Text Link" data-link-style="text-decoration:none; color:#FFFFFF;" height="40" style="padding-left: 30px;"><a data-color="Text Link" data-msdyn-tracking="null" data-msdyn-tracking-id="4299eb6d-9898-4f87-99c4-d5e2281d19ec" data-size="Main Text3" href="https://dedicatoame.it/gli-amici-ci-allungano-la-memoria/?utm_medium=organic-email&amp;utm_source=newsletter&amp;utm_campaign=IT_TENA_Search_Essity-All_INCO-All_Brand_Brand_Other_TENA-April-Newsletter-1_Local-Information_2025-04_2025-0#_msdynmkt_linkid=0b6a9a69-5c77-4ea7-828f-f653e22a140c" style="border-radius: 5px; font-family: 'Open Sans', Arial, sans-serif; color: #FFFFFF; font-size: 16px; background-color: #0b205b;; color: #ffffff; font-size: 16px; line-height: 15.1px; font-weight: 400; display: inline-block; padding: 10px 30px; text-decoration: none; border-radius: 50px;" target="_blank" title="Leggi l'articolo">Leggi l&#39;articolo </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- end left --></td>
+					</tr>
+					<tr>
+						<td height="40">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
   <!-- BANNER -->
   <table class="responsive-table articles" 
-  width="550"
+  width="600"
   border="0"
   cellpadding="0"
   cellspacing="0"
@@ -787,7 +1047,7 @@
   class="responsive-table article"
   style="
     border-collapse: collapse;
-    width: 550px;
+    width: 600px;
     margin: 0 auto;
   ">
     <tbody>
@@ -795,7 +1055,7 @@
         <td style="padding-top: 23px;">
           <a style="cursor: pointer;" href="https://risparmiacontena.it/?utm_medium=organic-email&utm_source=newsletter&utm_campaign=IT_TENA_Search_Essity-All_INCO-All_Brand_Brand_Other_TENA-May-Newsletter-1_Local-Information_2025-05_2025-05">
             <img class="desk-banner-img" style="max-width: 100%;" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/3f80c780-e215-f011-998a-000d3ad9c83c?ts=638798691072868197" alt="banner weekly product desktop">
-            <img class="mobile-banner-img" style="max-width: 100%; display: none;" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/0780c780-e215-f011-998a-000d3ad9c83c?ts=638798691054117656" alt="banner weekly product mobile">
+              <img class="mobile-banner-img" style="max-width: 100%; display: none;" src="https://assets-eur.mkt.dynamics.com/f8472de8-1c7e-4499-b6ab-177c1cc6baab/digitalassets/images/0780c780-e215-f011-998a-000d3ad9c83c?ts=638798691054117656" alt="banner weekly product mobile">
           </a>
         </td>
       </tr>
@@ -804,7 +1064,7 @@
     <!-- FOOTER -->
   <table 
         class="responsive-table articles footer-table" 
-        width="550"
+        width="600"
         border="0"
         cellpadding="0"
         cellspacing="0"
@@ -812,7 +1072,7 @@
         class="responsive-table article"
         style="
         border-collapse: collapse;
-        width: 550px;
+        width: 600px;
         margin: 0 auto;
         background-color: #0a205c;
         
@@ -822,7 +1082,7 @@
       <td style="padding-top: 35px;">
           <table 
             class="responsive-table articles" 
-            width="550"
+            width="600"
             border="0"
             cellpadding="0"
             cellspacing="0"
@@ -830,7 +1090,7 @@
             class="responsive-table article"
             style="
             border-collapse: collapse;
-            width: 550px;
+            width: 600px;
             margin: 0 auto;
             background-color: #0a205c;
             
@@ -872,7 +1132,7 @@
       <td>
           <table 
             class="responsive-table articles" 
-            width="550"
+            width="600"
             border="0"
             cellpadding="0"
             cellspacing="0"
@@ -880,7 +1140,7 @@
             class="responsive-table article"
             style="
             border-collapse: collapse;
-            width: 550px;
+            width: 600px;
             margin: 0 auto;
             background-color: #0a205c;
             
